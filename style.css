@@ -1,13 +1,24 @@
 /*
-Theme Name:   Ollie Child
-Theme URI:    https://olliewp.com
-Description:  A child theme for Ollie.
-Author:       OllieWP
-Author URI:   http://example.com
-Template:     ollie
-Version:      1.0.0
-License:      GNU General Public License v2 or later
-License URI:  http://www.gnu.org/licenses/gpl-2.0.html
-Tags:         Tags: blog, portfolio, entertainment
-Text Domain:  ollie
+Theme Name: Century 21 Lending
+Theme URI: https://github.com/derintolu/21centurylending
+Author: Derin Tolu
+Author URI: https://derintolu.com
+Description: A custom theme for Century 21 Lending
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: century21lending
+Template: ollie
 */
+
+/* Block Styles - Gradient Text */
+.editor-styles-wrapper .is-style-gradient-text,
+.is-style-gradient-text {
+    background: linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
